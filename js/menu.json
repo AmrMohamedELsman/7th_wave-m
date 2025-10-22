@@ -1,0 +1,98 @@
+{
+  "ar": {
+    "categories": [
+      {
+        "name": "العصائر الفريش",
+        "image": "smo-1.jpg",
+        "items": [
+          { "name": "مانجا", "price": "75", "description": "عصير مانجا طبيعي طازج" },
+          { "name": "فروله", "price": "75", "description": "عصير فراولة طبيعي" },
+          { "name": "بطيخ", "price": "75", "description": "عصير بطيخ منعش" },
+          { "name": "تين شوكي", "price": "65", "description": "عصير تين شوكي مميز" },
+          { "name": "رومان", "price": "60", "description": "عصير رمان غني بمضادات الأكسدة" },
+          { "name": "كانتالوب", "price": "75", "description": "عصير كنتالوب طبيعي" },
+          { "name": "خوخ", "price": "70", "description": "عصير خوخ بطعم متوازن" },
+          { "name": "موز", "price": "65", "description": "عصير موز كريمي" },
+          { "name": "برتقال", "price": "65", "description": "عصير برتقال طازج" },
+          { "name": "اناناس", "price": "60", "description": "عصير أناناس استوائي منعش" },
+          { "name": "ليمون نعناع", "price": "50", "description": "ليمون بنكهة النعناع المنعشة" },
+          { "name": "جوافه", "price": "65", "description": "عصير جوافة غني" },
+          { "name": "كيوي", "price": "105", "description": "عصير كيوي بطعم فاكهي قوي" },
+          { "name": "افوكادو", "price": "150", "description": "عصير أفوكادو كريمي مغذي" }
+        ]
+      },
+      {
+        "name": "الشيشه",
+        "image": "j-12.jpg",
+        "items": [
+          { "name": "شيشه", "price": "150", "description": "" },
+          { "name": "شيشه مكس من اختيارك", "price": "165", "description": "" }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "categories": [
+      {
+        "name": "Fresh Juices",
+        "image": "smo-1.jpg",
+        "items": [
+          { "name": "Mango", "price": "75", "description": "Fresh mango juice" },
+          { "name": "Strawberry", "price": "75", "description": "Fresh strawberry juice" },
+          { "name": "Watermelon", "price": "75", "description": "Refreshing watermelon juice" },
+          { "name": "Prickly Pear", "price": "65", "description": "Unique prickly pear juice" },
+          { "name": "Pomegranate", "price": "60", "description": "Antioxidant-rich pomegranate juice" },
+          { "name": "Cantaloupe", "price": "75", "description": "Fresh cantaloupe juice" },
+          { "name": "Peach", "price": "70", "description": "Balanced peach flavor" },
+          { "name": "Banana", "price": "65", "description": "Creamy banana juice" },
+          { "name": "Orange", "price": "65", "description": "Fresh orange juice" },
+          { "name": "Pineapple", "price": "60", "description": "Tropical pineapple juice" },
+          { "name": "Lemon Mint", "price": "50", "description": "Zesty lemon with mint" },
+          { "name": "Guava", "price": "65", "description": "Rich guava juice" },
+          { "name": "Kiwi", "price": "105", "description": "Bold kiwi flavor" },
+          { "name": "Avocado", "price": "150", "description": "Creamy, nutritious avocado juice" }
+        ]
+      },
+      {
+        "name": "Shisha",
+        "image": "j-12.jpg",
+        "items": [
+          { "name": "Shisha", "price": "150", "description": "" },
+          { "name": "Shisha Mix (Your Choice)", "price": "165", "description": "" }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "categories": [
+      {
+        "name": "鲜榨果汁",
+        "image": "smo-1.jpg",
+        "items": [
+          { "name": "芒果", "price": "75", "description": "新鲜芒果汁" },
+          { "name": "草莓", "price": "75", "description": "新鲜草莓汁" },
+          { "name": "西瓜", "price": "75", "description": "清爽西瓜汁" },
+          { "name": "仙人掌果", "price": "65", "description": "独特的仙人掌果汁" },
+          { "name": "石榴", "price": "60", "description": "富含抗氧化的石榴汁" },
+          { "name": "哈密瓜", "price": "75", "description": "新鲜哈密瓜汁" },
+          { "name": "桃子", "price": "70", "description": "口味平衡的桃汁" },
+          { "name": "香蕉", "price": "65", "description": "顺滑香蕉汁" },
+          { "name": "橙子", "price": "65", "description": "新鲜橙汁" },
+          { "name": "菠萝", "price": "60", "description": "热带风味菠萝汁" },
+          { "name": "柠檬薄荷", "price": "50", "description": "清新的柠檬薄荷" },
+          { "name": "番石榴", "price": "65", "description": "浓郁番石榴汁" },
+          { "name": "奇异果", "price": "105", "description": "风味十足的奇异果汁" },
+          { "name": "牛油果", "price": "150", "description": "营养丰富的牛油果汁" }
+        ]
+      },
+      {
+        "name": "水烟",
+        "image": "j-12.jpg",
+        "items": [
+          { "name": "水烟", "price": "150", "description": "" },
+          { "name": "混合水烟（自选）", "price": "165", "description": "" }
+        ]
+      }
+    ]
+  }
+}
