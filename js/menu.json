@@ -23,7 +23,7 @@
       },
       {
         "name": "الشيشه",
-        "image": "screenshot23.png",
+        
         "items": [
           { "name": "شيشه", "price": "150", "description": "" },
           { "name": "شيشه مكس من اختيارك", "price": "165", "description": "" }
@@ -55,7 +55,7 @@
       },
       {
         "name": "Shisha",
-        "image": "screenshot23.png",
+      
         "items": [
           { "name": "Shisha", "price": "150", "description": "" },
           { "name": "Shisha Mix (Your Choice)", "price": "165", "description": "" }
@@ -87,7 +87,7 @@
       },
       {
         "name": "水烟",
-        "image": "screenshot23.png",
+        
         "items": [
           { "name": "水烟", "price": "150", "description": "" },
           { "name": "混合水烟（自选）", "price": "165", "description": "" }
