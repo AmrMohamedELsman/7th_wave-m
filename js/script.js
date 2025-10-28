@@ -100,23 +100,6 @@ const menuData = {
                 ]
             },
            
-            {
-                name: "الميلك تشيك",
-                image: "c-13.jpg",
-                items: [
-                    { name: "فانيلا ميلك شيك", description: "", price: "95" },
-                    { name: "شوكلت ميلك شيك", description: "", price: "95" },
-                    { name: "ستروبري ميلك شيك", description: "", price: "95" },
-                    { name: "اوريو ميلك شيك", description: "", price: "95" },
-                    { name: "لوتس ميلك شيك", description: "", price: "95" },
-                    { name: "نوتيلا ميلك شيك", description: "", price: "95" },
-                    { name: "كراميل ميلك شيك", description: "", price: "95" },
-                    { name: "مانجو ميلك شيك", description: "", price: "95" },
-                    { name: "بلو بيري ميلك شيك", description: "", price: "95" },
-                    { name: "بستاشيو ميلك شيك", description: "", price: "125" }
-                ]
-            },
-           
        
         
             {
@@ -195,7 +178,7 @@ const menuData = {
             },
             {
                 name: "الموهيتو",
-                image: "mo5.jpg",
+                image: "img-20251028-wa0001.jpg",
                 items: [
                     { name: "صن شاين", description: "", price: "60" },
                     { name: "صن رايز", description: "", price: "60" },
@@ -208,7 +191,6 @@ const menuData = {
             },
             {
                 name: "المشروبات الغازيه",
-                image: "c-16.jpg",
                 items: [
                     { name: "ريدبول", description: "", price: "110" },
                     { name: "بيريل", description: "", price: "60" },
@@ -218,7 +200,6 @@ const menuData = {
             },
             {
                 name: "الاضافات",
-                image: "c-10.jpg",
                 items: [
                     { name: "حليب", description: "", price: "50" },
                     { name: "مكسرات", description: "", price: "60" },
@@ -246,7 +227,7 @@ const menuData = {
             },
             {
                 name: "الايس كوفي",
-                image: "i-4.jpg",
+                image: "img-20251028-wa0000.jpg",
                 items: [
                     { name: "ايس نسكافيه", description: "", price: "80" },
                     { name: "ايس كابتشينو", description: "", price: "110" },
@@ -258,6 +239,26 @@ const menuData = {
                     { name: "ايس سولتد كرميل", description: "", price: "110" },
                     { name: "ايس ماتشا لاتيه", description: "", price: "155" },
                     { name: "ايس امريكانو", description: "", price: "75" }
+                ]
+            },
+             {
+                name: " العصائر الفريش",
+                image: "j-12.jpg",
+                items: [
+                    { name: " مانجا", description: "", price: "75" },
+                    { name: " فروله", description: "", price: "75" },
+                    { name: " بطيخ", description: "", price: "75" },
+                    { name: "تين شوكي ", description: "", price: "65" },
+                    { name: " رمان", description: "", price: "60" },
+                    { name: "  كنتالوب", description: "", price: "75" },
+                    { name: "خوخ", description: "", price: "70" },
+                    { name: "  موز", description: "", price: "65" },
+                    { name: "برتقال  ", description: "", price: "65" },
+                    { name: " اناناس", description: "", price: "60" },
+                    { name: " لمون نعناع", description: "", price: "50" },
+                    { name: " جوافه", description: "", price: "65" },
+                    { name: " كيوي", description: "", price: "105" },
+                    { name: " افوكادو", description: "", price: "150" }
                 ]
             },
             {
@@ -481,7 +482,7 @@ const menuData = {
             },
             {
                 name: "Mojito",
-                image: "mo5.jpg",
+                image: "img-20251028-wa0001.jpg",
                 items: [
                     { name: "Sunshine", description: "", price: "60" },
                     { name: "Sunrise",  description: "", price: "60" },
@@ -531,7 +532,7 @@ const menuData = {
             },
             {
                 name: "Iced Coffee",
-                image: "i-4.jpg",
+                image: "img-20251028-wa0000.jpg",
                 items: [
                     { name: "Iced Nescafe",description: "", price: "80" },
                     { name: "Iced Cappuccino",description: "", price: "110" },
@@ -785,7 +786,7 @@ const menuData = {
             },
             {
                 name: "莫吉托",
-                image: "mo5.jpg",
+                image: "img-20251028-wa0001.jpg",
                 items: [
                     { name: "阳光", description: "", price: "60" },  
                     { name: "日出", description: "", price: "60" },
@@ -836,7 +837,7 @@ const menuData = {
             },
             {
                 name: "冰咖啡",
-                image: "i-4.jpg",
+                image: "img-20251028-wa0000.jpg",
                 items: [
                     { name: "冰雀巢咖啡", description: "", price: "80" },
                     { name: "冰卡布奇诺", description: "", price: "110" },
