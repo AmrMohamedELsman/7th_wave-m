@@ -149,6 +149,14 @@ const menuData = {
                     { name: "فربيه لوتس", description: "", price: "100" }
                 ]
             },
+             {
+                name: "الشيشه",
+            
+                items: [
+                { "name": "شيشه", "price": "150", "description": "" },
+                { "name": "شيشه مكس من اختيارك", "price": "165", "description": "" }
+                ]
+            },
             {
                 name: "الاسموزي",
                 image: "smo-1.jpg",
@@ -178,7 +186,7 @@ const menuData = {
             },
             {
                 name: "الموهيتو",
-                image: "img-20251028-wa0001.jpg",
+                image: "IMG-20251028-WA0001.jpg",
                 items: [
                     { name: "صن شاين", description: "", price: "60" },
                     { name: "صن رايز", description: "", price: "60" },
@@ -227,7 +235,7 @@ const menuData = {
             },
             {
                 name: "الايس كوفي",
-                image: "img-20251028-wa0000.jpg",
+                image: "IMG-20251028-WA0000.jpg",
                 items: [
                     { name: "ايس نسكافيه", description: "", price: "80" },
                     { name: "ايس كابتشينو", description: "", price: "110" },
@@ -482,7 +490,7 @@ const menuData = {
             },
             {
                 name: "Mojito",
-                image: "img-20251028-wa0001.jpg",
+                image: "IMG-20251028-WA0001.jpg",
                 items: [
                     { name: "Sunshine", description: "", price: "60" },
                     { name: "Sunrise",  description: "", price: "60" },
@@ -532,7 +540,7 @@ const menuData = {
             },
             {
                 name: "Iced Coffee",
-                image: "img-20251028-wa0000.jpg",
+                image: "IMG-20251028-WA0000.jpg",
                 items: [
                     { name: "Iced Nescafe",description: "", price: "80" },
                     { name: "Iced Cappuccino",description: "", price: "110" },
@@ -589,6 +597,13 @@ const menuData = {
                     { name: "Matcha Cappuccino", price: "150", description: "" }
                 ]
             },
+             {
+                name: "Shisha",
+                items: [
+                { "name": "Shisha", "price": "150", "description": "" },
+                { "name": "Shisha Mix (Your Choice)", "price": "165", "description": "" }
+                ]
+            },
             {
                 name: "Fresh Juices",
                 image: "j-12.jpg",
@@ -628,6 +643,14 @@ const menuData = {
                     { name: "芝士牛角包", description: "", price: "75" },
                     { name: "烟熏火鸡牛角包", description: "", price: "215" },
                     { name: "烟熏牛肉牛角包", description: "", price: "225" }
+                ]
+            },
+            {
+                name: "水烟",
+                
+                items: [
+                { "name": "水烟", "price": "150", "description": "" },
+                { "name": "混合水烟（自选）", "price": "165", "description": "" }
                 ]
             },
             {
@@ -786,7 +809,7 @@ const menuData = {
             },
             {
                 name: "莫吉托",
-                image: "img-20251028-wa0001.jpg",
+                image: "IMG-20251028-WA0001.jpg",
                 items: [
                     { name: "阳光", description: "", price: "60" },  
                     { name: "日出", description: "", price: "60" },
@@ -837,7 +860,7 @@ const menuData = {
             },
             {
                 name: "冰咖啡",
-                image: "img-20251028-wa0000.jpg",
+                image: "IMG-20251028-WA0000.jpg",
                 items: [
                     { name: "冰雀巢咖啡", description: "", price: "80" },
                     { name: "冰卡布奇诺", description: "", price: "110" },
