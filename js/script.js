@@ -5,39 +5,39 @@ const menuData = {
                 name: "الفطار",
                 image: "imges-3.jpg",
                 items: [
-                    { name: "فطار شرقي", description: "(فول -بيض-جبنه طماطم -سلطه خضراء)يقدم مع شاي او قهوه او نسكافيه", price: "100" },
-                    { name: "توست تشيز", description: "", price: "135" },
-                    { name: "توست رومي مدخن وشيدر", description: "", price: "150" },
-                    { name: "كلوب ساندوتش مع فريز", description: "", price: "150" },
-                    { name: "تشيز اومليت", description: "يقدم مع فريز وشرائح زيتون", price: "95" },
-                    { name: "سبانش اومليت", description: "مع فريز وشرائح زيتون", price: "100" },
-                    { name: "كرواسون نوتيلا", description: "", price: "75" },
-                    { name: "كلاسيك كرواسون", description: "يقدم مع شاي او قهوه", price: "100" },
-                    { name: "تشيز كرواسون", description: "", price: "75" },
-                    { name: "كرواسون سموك تركي", description: "", price: "215" },
-                    { name: "كرواسون سموك بيف", description: "", price: "225" }
+                    { name: "فطار شرقي", description: "(فول -بيض-جبنه طماطم -سلطه خضراء)يقدم مع شاي او قهوه او نسكافيه", price: "105" },
+                    { name: "توست تشيز", description: "", price: "140" },
+                    { name: "توست رومي مدخن وشيدر", description: "", price: "155" },
+                    { name: "كلوب ساندوتش مع فريز", description: "", price: "155" },
+                    { name: "تشيز اومليت", description: "يقدم مع فريز وشرائح زيتون", price: "100" },
+                    { name: "سبانش اومليت", description: "مع فريز وشرائح زيتون", price: "105" },
+                    { name: "كرواسون نوتيلا", description: "", price: "80" },
+                    { name: "كلاسيك كرواسون", description: "يقدم مع شاي او قهوه", price: "105" },
+                    { name: "تشيز كرواسون", description: "", price: "80" },
+                    { name: "كرواسون سموك تركي", description: "", price: "220" },
+                    { name: "كرواسون سموك بيف", description: "", price: "230" }
                 ]
             },
             {
                 name: "المقبلات",
                 image: "sal-4.jpg",
                 items: [
-                    { name: "حلقات بصل", description: "", price: "50" },
-                    { name: "خبز بالثوم والجبنة", description: "", price: "45" },
-                    { name: "فرايز", description: "", price: "45" },
-                    { name: "فرايز جبنة", description: "", price: "70" },
-                    { name: "جرين سلاد", description: "", price: "55" },
-                    { name: "جريك سلاد", description: "", price: "65" },
-                    { name: "تشيكن سيزر سلاد", description: "", price: "140" }
+                    { name: "حلقات بصل", description: "", price: "60" },
+                    { name: "خبز بالثوم والجبنة", description: "", price: "50" },
+                    { name: "فرايز", description: "", price: "50" },
+                    { name: "فرايز جبنة", description: "", price: "75" },
+                    { name: "جرين سلاد", description: "", price: "60" },
+                    { name: "جريك سلاد", description: "", price: "70" },
+                    { name: "تشيكن سيزر سلاد", description: "", price: "145" }
                 ]
             },
             {
                 name: "الشوربة",
                 image: "s-2.jpg",
                 items: [
-                    { name: "شوربة دي فولاي", description: "", price: "160" },
-                    { name: "شوربة مشروم", description: "", price: "150" },
-                    { name: "شوربة سي فود", description: "", price: "250" }
+                    { name: "شوربة دي فولاي", description: "", price: "165" },
+                    { name: "شوربة مشروم", description: "", price: "155" },
+                    { name: "شوربة سي فود", description: "", price: "255" }
                 ]
             },
             {
@@ -45,49 +45,49 @@ const menuData = {
                 description: "جميع الساندوتشات تقدم مع البطاطس المحمرة والصوص",
                 image: "san-10.jpg",
                 items: [
-                    { name: "كوردون بلو", description: "", price: "175" },
-                    { name: "فاهيتا تشيكن", description: "", price: "165" },
-                    { name: "فاهيتا بيف", description: "", price: "185" },
-                    { name: "تشيكن كرسبي", description: "", price: "155" },
-                    { name: "جريل تشيكن", description: "", price: "155" },
-                    { name: "كرانشي شريمب", description: "", price: "235" }
+                    { name: "كوردون بلو", description: "", price: "180" },
+                    { name: "فاهيتا تشيكن", description: "", price: "170" },
+                    { name: "فاهيتا بيف", description: "", price: "190" },
+                    { name: "تشيكن كرسبي", description: "", price: "160" },
+                    { name: "جريل تشيكن", description: "", price: "160" },
+                    { name: "كرانشي شريمب", description: "", price: "240" }
                 ]
             },
             {
                 name: "البرجر",
                 image: "san-6.jpg",
                 items: [
-                    { name: "تشيز برجر", description: "", price: "252" },
-                    { name: "برجر مشروم", description: "", price: "250" },
-                    { name: "كلاسيك برجر", description: "", price: "195" },
-                    { name: "كانتري برجر", description: "(قطعة برجر بلدي طازجة مقدمة على خبز كايزر مع أمريكان تشيز وصوص البلو تشيز وحلقات بصل فريش والبيف بيكن)", price: "290" }
+                    { name: "تشيز برجر", description: "", price: "260" },
+                    { name: "برجر مشروم", description: "", price: "260" },
+                    { name: "كلاسيك برجر", description: "", price: "200" },
+                    { name: "كانتري برجر", description: "(قطعة برجر بلدي طازجة مقدمة على خبز كايزر مع أمريكان تشيز وصوص البلو تشيز وحلقات بصل فريش والبيف بيكن)", price: "295" }
                 ]
             },
             {
                 name: "البيتزا",
                 image: "p-4.jpg",
                 items: [
-                    { name: "مارجريتا", description: "", price: "135" },
-                    { name: "فونجي", description: "", price: "150" },
-                    { name: "تشيكن باربيكيو", description: "", price: "210" },
-                    { name: "تشيز لفرز", description: "", price: "250" },
-                    { name: "سي فود", description: "", price: "375" },
-                    { name: "بيبروني", description: "", price: "185" },
-                    { name: "سوبر سوبريم", description: "", price: "265" },
-                    { name: "تشيكن رانش", description: "", price: "210" },
-                    { name: "جمبري", description: "", price: "350" }
+                    { name: "مارجريتا", description: "", price: "140" },
+                    { name: "فونجي", description: "", price: "155" },
+                    { name: "تشيكن باربيكيو", description: "", price: "215" },
+                    { name: "تشيز لفرز", description: "", price: "255" },
+                    { name: "سي فود", description: "", price: "380" },
+                    { name: "بيبروني", description: "", price: "190" },
+                    { name: "سوبر سوبريم", description: "", price: "270" },
+                    { name: "تشيكن رانش", description: "", price: "215" },
+                    { name: "جمبري", description: "", price: "355" }
                 ]
             },
             {
                 name: "المكرونه",
                 image: "pas-6.jpg",
                 items: [
-                    { name: "بنا بولونيز", description: "(مكرونه بنا مع ريد صوص وا الحمه المفرومه وا الجبنه التركي المبشوره)", price: "160" },
-                    { name: "باسا سي فود", description: "(مكرونه بنا مع وايت صوص وا فواكه البحر المشكل )", price: "325" },
-                    { name: "بنا دي ماري", description: "(مكرونه بنا مع وايت صوص وا الجمبري)", price: "300" },
-                    { name: "تشيكن الفريدو", description: "(مكرونه بنا مع وايت صوص وا قطع الفراخ واجبنه برمجزان)", price: "235" },
-                    { name: "بنااربيتا", description: "(مكرونه بنا مع ريد صوص وا مشروم وا جبنه تركي مبشوره)", price: "115" },
-                    { name: "نجرسكو", description: "(مكرونه فوتتشيني مع الفراخ وا المشروم وا المتزريلا )", price: "255" }
+                    { name: "بنا بولونيز", description: "(مكرونه بنا مع ريد صوص وا الحمه المفرومه وا الجبنه التركي المبشوره)", price: "165" },
+                    { name: "باسا سي فود", description: "(مكرونه بنا مع وايت صوص وا فواكه البحر المشكل )", price: "330" },
+                    { name: "بنا دي ماري", description: "(مكرونه بنا مع وايت صوص وا الجمبري)", price: "305" },
+                    { name: "تشيكن الفريدو", description: "(مكرونه بنا مع وايت صوص وا قطع الفراخ واجبنه برمجزان)", price: "240" },
+                    { name: "بنااربيتا", description: "(مكرونه بنا مع ريد صوص وا مشروم وا جبنه تركي مبشوره)", price: "120" },
+                    { name: "نجرسكو", description: "(مكرونه فوتتشيني مع الفراخ وا المشروم وا المتزريلا )", price: "260" }
                 ]
             },
 
@@ -95,8 +95,8 @@ const menuData = {
                 name: "وجبات الاطفال",
                 image: "san-3.jpg",
                 items: [
-                    { name: "ناجيتس بطاطس", description: "", price: "100" },
-                    { name: "مكرونة بالجبنة", description: "", price: "100" }
+                    { name: "ناجيتس بطاطس", description: "", price: "105" },
+                    { name: "مكرونة بالجبنة", description: "", price: "105" }
                 ]
             },
            
@@ -107,13 +107,13 @@ const menuData = {
                 description: "جميع الاطباق تقدم مع البطاطس المحمره وا اختياركم من الماشبوتيتو وا الباستا وايت صوص-ريد صوص",
                 image: "pas-8.jpg",
                 items: [
-                    { name: "جريل تشيكن", description: "(شرائح الفراخ المشويه الطازجه)", price: "252" },
-                    { name: "كاري تشيكن", description: "(شرائح فراخ مع صوص الكاري )", price: "350" },
-                    { name: "كوردن بلو اتشكن", description: "(فلي الدجاج محشو تشيز وا لحم مدخن)", price: "380" },
-                    { name: "كريمي مشروم اتشكن", description: "(شرائح دجاج مع وايت صوص وا المشروم )", price: "360" },
-                    { name: "فاهيتا تشيكن", description: "(شرائح دجاج مشوي مع شرائح خضار وا صوص الفاهيتا)", price: "310" },
-                    { name: "فاهيتا لحمه", description: "(شرائح لحم الفليه مع شرائح الخضار وا صوص الفاهيتا)", price: "395" },
-                    { name: "تشيكن لمون", description: "(شرائح لحم مع صوص وايت كرريمي لبمون)", price: "330" }
+                    { name: "جريل تشيكن", description: "(شرائح الفراخ المشويه الطازجه)", price: "260" },
+                    { name: "كاري تشيكن", description: "(شرائح فراخ مع صوص الكاري )", price: "355" },
+                    { name: "كوردن بلو اتشكن", description: "(فلي الدجاج محشو تشيز وا لحم مدخن)", price: "385" },
+                    { name: "كريمي مشروم اتشكن", description: "(شرائح دجاج مع وايت صوص وا المشروم )", price: "365" },
+                    { name: "فاهيتا تشيكن", description: "(شرائح دجاج مشوي مع شرائح خضار وا صوص الفاهيتا)", price: "315" },
+                    { name: "فاهيتا لحمه", description: "(شرائح لحم الفليه مع شرائح الخضار وا صوص الفاهيتا)", price: "400" },
+                    { name: "تشيكن لمون", description: "(شرائح لحم مع صوص وايت كرريمي لبمون)", price: "335" }
                 ]
             },
             {
@@ -124,17 +124,17 @@ const menuData = {
                     { name: "كريب بستاشيو", description: "", price: "125" },
                     { name: "وافل نوتيلا", description: "", price: "95" },
                     { name: "وافل بستاشيو", description: "", price: "135" },
-                    { name: "برونيز", description: "", price: "115" },
+                    { name: "برونيز", description: "", price: "150" },
                     { name: "ايس كريم(3اسكوب)", description: "", price: "130" },
                     { name: "وافل فور سيزون", description: "", price: "150" },
                     { name: "اوريو مادنس", description: "", price: "150" },
                     { name: "فروت مادنس", description: "", price: "165" },
                     { name: "كاب جاك", description: "", price: "150" },
                     { name: "شوكلات فادج", description: "", price: "130" },
-                    { name: "مولتن كيك", description: "", price: "165" },
-                    { name: "تشيزكيك", description: "", price: "145" },
+                    { name: "مولتن كيك", description: "", price: "190" },
+                    { name: "تشيزكيك", description: "", price: "165" },
                     { name: "سان اسباستيان", description: "", price: "165" },
-                    { name: "ام علي", description: "", price: "150" }
+                    { name: "ام علي", description: "", price: "185" }
                 ]
             },
             {
@@ -144,7 +144,7 @@ const menuData = {
                     { name: "فربيه كلاسيك", description: "", price: "85" },
                     { name: "فربيه بيستاشيو", description: "", price: "130" },
                     { name: "فربيتشينو موكا", description: "", price: "95" },
-                    { name: "فربيتشينو كرميل", description: "", price: "90" },
+                    { name: "فربيتشينو كرميل", description: "", price: "105" },
                     { name: "فربيه سولتد كرميل", description: "", price: "110" },
                     { name: "فربيه لوتس", description: "", price: "100" }
                 ]
@@ -188,13 +188,13 @@ const menuData = {
                 name: "الموهيتو",
                 image: "IMG-20251028-WA0001.jpg",
                 items: [
-                    { name: "صن شاين", description: "", price: "60" },
-                    { name: "صن رايز", description: "", price: "60" },
-                    { name: "شيري كولا", description: "", price: "60" },
-                    { name: "بلو هواي", description: "سفن شرائح لمون نعناع بلوكروساو", price: "70" },
-                    { name: "بلو اوشن", description: "سفن شرائح لمون ونعناع بلوكروساو عصير برتقال", price: "75" },
-                    { name: "ريدبول موكتيل", description: "ريدبول + فليفر من اختيارك", price: "155" },
-                    { name: "ريدبول هامر هيد", description: "ريدبول اسبرسو", price: "175" }
+                    { name: "صن شاين", description: "", price: "70" },
+                    { name: "صن رايز", description: "", price: "70" },
+                    { name: "شيري كولا", description: "", price: "70" },
+                    { name: "بلو هواي", description: "سفن شرائح لمون نعناع بلوكروساو", price: "80" },
+                    { name: "بلو اوشن", description: "سفن شرائح لمون ونعناع بلوكروساو عصير برتقال", price: "90" },
+                    { name: "ريدبول موكتيل", description: "ريدبول + فليفر من اختيارك", price: "185" },
+                    { name: "ريدبول هامر هيد", description: "ريدبول اسبرسو", price: "190" }
                 ]
             },
             {
@@ -237,12 +237,12 @@ const menuData = {
                 name: "الايس كوفي",
                 image: "IMG-20251028-WA0000.jpg",
                 items: [
-                    { name: "ايس نسكافيه", description: "", price: "80" },
+                    { name: "ايس نسكافيه", description: "", price: "85" },
                     { name: "ايس كابتشينو", description: "", price: "110" },
                     { name: "ايس بستاشيو لاتيه", description: "", price: "140" },
                     { name: "ايس موكا", description: "", price: "110" },
                     { name: "ايس لاتيه", description: "", price: "70" },
-                    { name: "ايس كرميل ميكاتو", description: "", price: "115" },
+                    { name: "ايس كرميل ميكاتو", description: "", price: "125" },
                     { name: "ايس اسبنش لاتيه", description: "", price: "110" },
                     { name: "ايس سولتد كرميل", description: "", price: "110" },
                     { name: "ايس ماتشا لاتيه", description: "", price: "155" },
@@ -297,7 +297,7 @@ const menuData = {
                     { name: "هوت شوكلات", description: "", price: "70" },
                     { name: "شاي براد", description: "", price: "55" },
                     { name: "هوت سيدر", description: "", price: "50" },
-                    { name: "سحلب", description: "", price: "60" },
+                    { name: "سحلب", description: "", price: "80" },
                     { name: "هةت باين", description: "", price: "55" },
                     { name: "شاي لاتيه", description: "", price: "50" },
                     { name: "شاي نكهات", description: "", price: "45" },
@@ -307,7 +307,7 @@ const menuData = {
                     { name: "كوكتيلا اعشاب", description: "", price: "50" },
                     { name: "اسبنش لاتيه", price: "90", description: "" },
                     { name: "سولتيد كرميل لاتيه", price: "90", description: "" },
-                    { name: "بستاشيو لاتيه", price: "125", description: "" },
+                    { name: "بستاشيو لاتيه", price: "135", description: "" },
                     { name: "ماتشا لاتيه", price: "140", description: "" },
                     { name: "ماتشا كابتشينو", price: "150", description: "" }
                 ]
@@ -321,42 +321,42 @@ const menuData = {
                 name: "Breakfast",
                 image: "imges-3.jpg",
                 items: [
-                    { name: "Oriental Breakfast", description: "(Beans, eggs, tomato cheese, green salad) served with tea, coffee, or Nescafe", price: "100" },
-                    { name: "Cheese Toast", description: "", price: "135" },
-                    { name: "Smoked Turkey and Cheddar Toast", description: "", price: "150" },
-                    { name: "Club Sandwich with Fries", description: "", price: "150" },
-                    { name: "Cheese Omelette", description: "Served with fries and olive slices", price: "95" },
-                    { name: "Spanish Omelette", description: "With fries and olive slices", price: "100" },
-                    { name: "Nutella Croissant", description: "", price: "75" },
-                    { name: "Classic Croissant", description: "Served with tea or coffee", price: "100" },
-                    { name: "Cheese Croissant", description: "", price: "75" },
-                    { name: "Smoked Turkey Croissant", description: "", price: "215" },
-                    { name: "Smoked Beef Croissant", description: "", price: "225" }
+                    { name: "Oriental Breakfast", description: "(Beans, eggs, tomato cheese, green salad) served with tea, coffee, or Nescafe", price: "105" },
+                    { name: "Cheese Toast", description: "", price: "140" },
+                    { name: "Smoked Turkey and Cheddar Toast", description: "", price: "155" },
+                    { name: "Club Sandwich with Fries", description: "", price: "155" },
+                    { name: "Cheese Omelette", description: "Served with fries and olive slices", price: "100" },
+                    { name: "Spanish Omelette", description: "With fries and olive slices", price: "105" },
+                    { name: "Nutella Croissant", description: "", price: "80" },
+                    { name: "Classic Croissant", description: "Served with tea or coffee", price: "105" },
+                    { name: "Cheese Croissant", description: "", price: "80" },
+                    { name: "Smoked Turkey Croissant", description: "", price: "220" },
+                    { name: "Smoked Beef Croissant", description: "", price: "230" }
                 ]
             },
             {
                 name: "Pizza",
                 image: "p-4.jpg",
                 items: [
-                    { name: "Margherita", description: "", price: "135" },
-                    { name: "Funghi", description: "", price: "150" },
-                    { name: "Chicken BBQ", description: "", price: "210" },
-                    { name: "Cheese Lovers", description: "", price: "250" },
-                    { name: "Sea Food", description: "", price: "375" },
-                    { name: "Pepperoni", description: "", price: "185" },
-                    { name: "Super Supreme", description: "", price: "265" },
-                    { name: "Chicken Ranch", description: "", price: "210" },
-                    { name: "Shrimp", description: "", price: "350" }
+                    { name: "Margherita", description: "", price: "140" },
+                    { name: "Funghi", description: "", price: "155" },
+                    { name: "Chicken BBQ", description: "", price: "215" },
+                    { name: "Cheese Lovers", description: "", price: "255" },
+                    { name: "Sea Food", description: "", price: "380" },
+                    { name: "Pepperoni", description: "", price: "190" },
+                    { name: "Super Supreme", description: "", price: "270" },
+                    { name: "Chicken Ranch", description: "", price: "215" },
+                    { name: "Shrimp", description: "", price: "355" }
                 ]
             },
             {
                 name: "Burger",
                 image: "san-6.jpg",
                 items: [
-                    { name: "Cheese Burger", description: "", price: "252" },
-                    { name: "Mushroom Burger", description: "", price: "250" },
-                    { name: "Classic Burger", description: "", price: "195" },
-                    { name: "Country Burger", description: "(Fresh local beef patty served on a kaiser bun with American cheese, blue cheese sauce, fresh onion rings, and beef bacon)", price: "290" }
+                    { name: "Cheese Burger", description: "", price: "260" },
+                    { name: "Mushroom Burger", description: "", price: "255" },
+                    { name: "Classic Burger", description: "", price: "200" },
+                    { name: "Country Burger", description: "(Fresh local beef patty served on a kaiser bun with American cheese, blue cheese sauce, fresh onion rings, and beef bacon)", price: "295" }
                 ]
             },
             {
@@ -364,54 +364,54 @@ const menuData = {
                 description: "All sandwiches are served with french fries and sauce",
                 image: "san-10.jpg",
                 items: [
-                    { name: "Cordon Bleu", description: "", price: "175" },
-                    { name: "Chicken Fajita", description: "", price: "165" },
-                    { name: "Beef Fajita", description: "", price: "185" },
-                    { name: "Crispy Chicken", description: "", price: "155" },
-                    { name: "Grilled Chicken", description: "", price: "155" },
-                    { name: "Crunchy Shrimp", description: "", price: "235" }
+                    { name: "Cordon Bleu", description: "", price: "180" },
+                    { name: "Chicken Fajita", description: "", price: "170" },
+                    { name: "Beef Fajita", description: "", price: "190" },
+                    { name: "Crispy Chicken", description: "", price: "160" },
+                    { name: "Grilled Chicken", description: "", price: "160" },
+                    { name: "Crunchy Shrimp", description: "", price: "240" }
                 ]
             },
             {
                 name: "Appetizers",
                 image: "sal-4.jpg",
                 items: [
-                    { name: "Onion Rings", description: "", price: "50" },
-                    { name: "Garlic Bread with Cheese", description: "", price: "45" },
-                    { name: "Fries", description: "", price: "45" },
-                    { name: "Cheese Fries", description: "", price: "70" },
-                    { name: "Green Salad", description: "", price: "55" },
-                    { name: "Greek Salad", description: "", price: "65" },
-                    { name: "Chicken Caesar Salad", description: "", price: "140" }
+                    { name: "Onion Rings", description: "", price: "55" },
+                    { name: "Garlic Bread with Cheese", description: "", price: "50" },
+                    { name: "Fries", description: "", price: "50" },
+                    { name: "Cheese Fries", description: "", price: "75" },
+                    { name: "Green Salad", description: "", price: "60" },
+                    { name: "Greek Salad", description: "", price: "70" },
+                    { name: "Chicken Caesar Salad", description: "", price: "145" }
                 ]
             },
             {
                 name: "Soup",
                 image: "s-2.jpg",
                 items: [
-                    { name: "Chicken Soup \"de Volaille\"", description: "", price: "160" },
-                    { name: "Mushroom Soup", description: "", price: "150" },
-                    { name: "Seafood Soup", description: "", price: "250" }
+                    { name: "Chicken Soup \"de Volaille\"", description: "", price: "165" },
+                    { name: "Mushroom Soup", description: "", price: "155" },
+                    { name: "Seafood Soup", description: "", price: "255" }
                 ]
             },
             {
                 name: "Kids' Meals",
                 image: "san-3.jpg",
                 items: [
-                    { name: "Nuggets & Fries", description: "", price: "100" },
-                    { name: "Mac and Cheese", description: "", price: "100" }
+                    { name: "Nuggets & Fries", description: "", price: "105" },
+                    { name: "Mac and Cheese", description: "", price: "105" }
                 ]
             },
             {
                 name: "Pasta",
                 image: "pas-6.jpg",
                 items: [
-                    { name: "Penne Bolognese", description: "(Penne pasta with red sauce, minced meat, and grated Turkish cheese)", price: "160" },
-                    { name: "Seafood Pasta", description: "(Penne pasta with white sauce and mixed seafood)", price: "325" },
-                    { name: "Penne Di Mare", description: "(Penne pasta with white sauce and shrimp)", price: "300" },
-                    { name: "Chicken Alfredo", description: "(Penne pasta with white sauce, chicken pieces, and Parmesan cheese)", price: "235" },
-                    { name: "Penne Arrabbiata", description: "(Penne pasta with red sauce, mushrooms, and grated Turkish cheese)", price: "115" },
-                    { name: "Negresco", description: "(Fettuccine pasta with chicken, mushrooms, and mozzarella)", price: "255" }
+                    { name: "Penne Bolognese", description: "(Penne pasta with red sauce, minced meat, and grated Turkish cheese)", price: "165" },
+                    { name: "Seafood Pasta", description: "(Penne pasta with white sauce and mixed seafood)", price: "330" },
+                    { name: "Penne Di Mare", description: "(Penne pasta with white sauce and shrimp)", price: "305" },
+                    { name: "Chicken Alfredo", description: "(Penne pasta with white sauce, chicken pieces, and Parmesan cheese)", price: "240" },
+                    { name: "Penne Arrabbiata", description: "(Penne pasta with red sauce, mushrooms, and grated Turkish cheese)", price: "120" },
+                    { name: "Negresco", description: "(Fettuccine pasta with chicken, mushrooms, and mozzarella)", price: "260" }
                 ]
             },
             {
@@ -419,13 +419,13 @@ const menuData = {
                 description: "All dishes are served with french fries and your choice of mashed potatoes or pasta with white or red sauce.",
                 image: "pas-8.jpg",
                 items: [
-                    { name: "Grilled Chicken", description: "Fresh grilled chicken slices", price: "252" },
-                    { name: "Curry Chicken", description: "Chicken slices with curry sauce", price: "350" },
-                    { name: "Chicken Cordon Bleu", description: "Chicken fillet stuffed with cheese and smoked meat", price: "380" },
-                    { name: "Creamy Mushroom Chicken", description: "Chicken slices with white sauce and mushrooms", price: "360" },
-                    { name: "Chicken Fajita", description: "Grilled chicken slices with vegetable slices and fajita sauce", price: "310" },
-                    { name: "Beef Fajita", description: "Fillet slices with vegetable slices and fajita sauce", price: "395" },
-                    { name: "Lemon Chicken", description: "Meat slices with creamy white lemon sauce", price: "330" }
+                    { name: "Grilled Chicken", description: "Fresh grilled chicken slices", price: "260" },
+                    { name: "Curry Chicken", description: "Chicken slices with curry sauce", price: "355" },
+                    { name: "Chicken Cordon Bleu", description: "Chicken fillet stuffed with cheese and smoked meat", price: "385" },
+                    { name: "Creamy Mushroom Chicken", description: "Chicken slices with white sauce and mushrooms", price: "365" },
+                    { name: "Chicken Fajita", description: "Grilled chicken slices with vegetable slices and fajita sauce", price: "315" },
+                    { name: "Beef Fajita", description: "Fillet slices with vegetable slices and fajita sauce", price: "400" },
+                    { name: "Lemon Chicken", description: "Meat slices with creamy white lemon sauce", price: "335" }
                 ]
             },
             {
@@ -436,17 +436,17 @@ const menuData = {
                     { name: "Pistachio Crepe", description: "", price: "125" },
                     { name: "Nutella Waffle", description: "", price: "95" },
                     { name: "Pistachio Waffle", description: "", price: "135" },
-                    { name: "Brownies", description: "", price: "115" },
+                    { name: "Brownies", description: "", price: "150" },
                     { name: "Ice Cream (3 scoops)", description: "", price: "130" },
                     { name: "Four Seasons Waffle", description: "", price: "150" },
                     { name: "Oreo Madness", description: "", price: "150" },
                     { name: "Fruit Madness", description: "", price: "165" },
                     { name: "Cap Jack", description: "", price: "150" },
                     { name: "Chocolate Fudge", description: "", price: "130" },
-                    { name: "Molten Cake", description: "", price: "165" },
-                    { name: "Cheesecake", description: "", price: "145" },
+                    { name: "Molten Cake", description: "", price: "190" },
+                    { name: "Cheesecake", description: "", price: "165" },
                     { name: "San Sebastian", description: "", price: "165" },
-                    { name: "Umm Ali", description: "", price: "150" }
+                    { name: "Umm Ali", description: "", price: "185" }
                 ]
             },
             {
@@ -456,7 +456,7 @@ const menuData = {
                     { name: "Classic Frappe", description: "", price: "85" },
                     { name: "Pistachio Frappe", description: "", price: "130" },
                     { name: "Mocha Frappuccino", description: "", price: "95" },
-                    { name: "Caramel Frappuccino", description: "", price: "90" },
+                    { name: "Caramel Frappuccino", description: "", price: "105" },
                     { name: "Salted Caramel Frappe", description: "", price: "110" },
                     { name: "Lotus Frappe", description: "", price: "100" }
                 ]
@@ -492,13 +492,13 @@ const menuData = {
                 name: "Mojito",
                 image: "IMG-20251028-WA0001.jpg",
                 items: [
-                    { name: "Sunshine", description: "", price: "60" },
-                    { name: "Sunrise",  description: "", price: "60" },
-                    { name: "Cherry Cola", description: "", price: "60" },
-                    { name: "Blue Hawaii  ", description: "(7 Up, Lemon Slices, Mint, Blue Curacao)", price: "70" },
-                    { name: "Blue Ocean  ", description: "(7 Up, Lemon Slices, Mint, Blue Curacao, Orange Juice)", price: "75" },
-                    { name: "Red Bull Mocktail  ", description: "(Red Bull + Flavor of your choice)", price: "155" },
-                    { name: "Red Bull Hammer Head ", description: "(Red Bull, Espresso)", price: "175" }
+                    { name: "Sunshine", description: "", price: "70" },
+                    { name: "Sunrise",  description: "", price: "70" },
+                    { name: "Cherry Cola", description: "", price: "70" },
+                    { name: "Blue Hawaii  ", description: "(7 Up, Lemon Slices, Mint, Blue Curacao)", price: "80" },
+                    { name: "Blue Ocean  ", description: "(7 Up, Lemon Slices, Mint, Blue Curacao, Orange Juice)", price: "90" },
+                    { name: "Red Bull Mocktail  ", description: "(Red Bull + Flavor of your choice)", price: "185" },
+                    { name: "Red Bull Hammer Head ", description: "(Red Bull, Espresso)", price: "190" }
                 ]
             },
             {
@@ -542,12 +542,12 @@ const menuData = {
                 name: "Iced Coffee",
                 image: "IMG-20251028-WA0000.jpg",
                 items: [
-                    { name: "Iced Nescafe",description: "", price: "80" },
+                    { name: "Iced Nescafe",description: "", price: "85" },
                     { name: "Iced Cappuccino",description: "", price: "110" },
                     { name: "Iced Pistachio Latte",description: "", price: "140" },
                     { name: "Iced Mocha",description: "", price: "110" },
                     { name: "Iced Latte",description: "", price: "70" },
-                    { name: "Iced Caramel Macchiato",description: "", price: "115" },
+                    { name: "Iced Caramel Macchiato",description: "", price: "125" },
                     { name: "Iced Spanish Latte",description: "", price: "110" },
                     { name: "Iced Salted Caramel",description: "", price: "110" },
                     { name: "Iced Matcha Latte",description: "", price: "155" },
@@ -582,7 +582,7 @@ const menuData = {
                     { name: "Hot Chocolate", description: "", price: "70" },
                     { name: "Tea Pot", description: "", price: "55" },
                     { name: "Hot Cider", description: "", price: "50" },
-                    { name: "Sahlab", description: "", price: "60" },
+                    { name: "Sahlab", description: "", price: "80" },
                     { name: "Hot Pine", description: "", price: "55" },
                     { name: "Tea Latte", description: "", price: "50" },
                     { name: "Flavored Tea", description: "", price: "45" },
@@ -592,7 +592,7 @@ const menuData = {
                     { name: "Herbal Cocktail", description: "", price: "50" },
                     { name: "Spanish Latte", price: "90", description: "" },
                     { name: "Salted Caramel Latte", price: "90", description: "" },
-                    { name: "Pistachio Latte", price: "125", description: "" },
+                    { name: "Pistachio Latte", price: "135", description: "" },
                     { name: "Matcha Latte", price: "140", description: "" },
                     { name: "Matcha Cappuccino", price: "150", description: "" }
                 ]
@@ -632,17 +632,17 @@ const menuData = {
                 name: "早餐",
                 image: "imges-3.jpg",
                 items: [
-                    { name: "东方早餐", description: "（蚕豆、鸡蛋、番茄芝士、蔬菜沙拉）配茶、咖啡或雀巢咖啡", price: "100" },
-                    { name: "芝士吐司", description: "", price: "135" },
-                    { name: "烟熏火鸡和切达吐司", description: "", price: "150" },
-                    { name: "总汇三明治配薯条", description: "", price: "150" },
-                    { name: "芝士煎蛋卷", description: "配薯条和橄榄片", price: "95" },
-                    { name: "西班牙煎蛋卷", description: "配薯条和橄榄片", price: "100" },
-                    { name: "能多益牛角包", description: "", price: "75" },
-                    { name: "经典牛角包", description: "配茶或咖啡", price: "100" },
-                    { name: "芝士牛角包", description: "", price: "75" },
-                    { name: "烟熏火鸡牛角包", description: "", price: "215" },
-                    { name: "烟熏牛肉牛角包", description: "", price: "225" }
+                    { name: "东方早餐", description: "（蚕豆、鸡蛋、番茄芝士、蔬菜沙拉）配茶、咖啡或雀巢咖啡", price: "105" },
+                    { name: "芝士吐司", description: "", price: "140" },
+                    { name: "烟熏火鸡和切达吐司", description: "", price: "155" },
+                    { name: "总汇三明治配薯条", description: "", price: "155" },
+                    { name: "芝士煎蛋卷", description: "配薯条和橄榄片", price: "100" },
+                    { name: "西班牙煎蛋卷", description: "配薯条和橄榄片", price: "105" },
+                    { name: "能多益牛角包", description: "", price: "80" },
+                    { name: "经典牛角包", description: "配茶或咖啡", price: "105" },
+                    { name: "芝士牛角包", description: "", price: "80" },
+                    { name: "烟熏火鸡牛角包", description: "", price: "220" },
+                    { name: "烟熏牛肉牛角包", description: "", price: "230" }
                 ]
             },
             {
@@ -657,25 +657,25 @@ const menuData = {
                 name: "比萨",
                 image: "p-4.jpg",
                 items: [
-                    { name: "玛格丽特", description: "", price: "135" },
-                    { name: "菌菇", description: "", price: "150" },
-                    { name: "鸡肉烧烤", description: "", price: "210" },
-                    { name: "芝士爱好者", description: "", price: "250" },
-                    { name: "海鲜", description: "", price: "375" },
-                    { name: "意大利辣香肠", description: "", price: "185" },
-                    { name: "超级至尊", description: "", price: "265" },
-                    { name: "鸡肉牧场", description: "", price: "210" },
-                    { name: "虾", description: "", price: "350" }
+                    { name: "玛格丽特", description: "", price: "140" },
+                    { name: "菌菇", description: "", price: "155" },
+                    { name: "鸡肉烧烤", description: "", price: "215" },
+                    { name: "芝士爱好者", description: "", price: "255" },
+                    { name: "海鲜", description: "", price: "380" },
+                    { name: "意大利辣香肠", description: "", price: "190" },
+                    { name: "超级至尊", description: "", price: "270" },
+                    { name: "鸡肉牧场", description: "", price: "215" },
+                    { name: "虾", description: "", price: "355" }
                 ]
             },
             {
                 name: "汉堡",
                 image: "san-6.jpg",
                 items: [
-                    { name: "芝士汉堡", description: "", price: "252" },
-                    { name: "蘑菇汉堡", description: "", price: "250" },
-                    { name: "经典汉堡", description: "", price: "195" },
-                    { name: "乡村汉堡", description: "(新鲜本地牛肉饼配凯撒面包、美国芝士、蓝纹芝士酱、新鲜洋葱圈和牛肉培根)", price: "290" }
+                    { name: "芝士汉堡", description: "", price: "260" },
+                    { name: "蘑菇汉堡", description: "", price: "255" },
+                    { name: "经典汉堡", description: "", price: "200" },
+                    { name: "乡村汉堡", description: "(新鲜本地牛肉饼配凯撒面包、美国芝士、蓝纹芝士酱、新鲜洋葱圈和牛肉培根)", price: "295" }
                 ]
             },
             {
@@ -683,54 +683,54 @@ const menuData = {
                 description: "所有三明治均配有炸薯条和酱汁",
                 image: "san-10.jpg",
                 items: [
-                    { name: "蓝带", description: "", price: "175" },
-                    { name: "鸡肉法士达", description: "", price: "165" },
-                    { name: "牛肉法士达", description: "", price: "185" },
-                    { name: "香脆鸡肉", description: "", price: "155" },
-                    { name: "烤鸡肉", description: "", price: "155" },
-                    { name: "香脆虾", description: "", price: "235" }
+                    { name: "蓝带", description: "", price: "180" },
+                    { name: "鸡肉法士达", description: "", price: "170" },
+                    { name: "牛肉法士达", description: "", price: "190" },
+                    { name: "香脆鸡肉", description: "", price: "160" },
+                    { name: "烤鸡肉", description: "", price: "160" },
+                    { name: "香脆虾", description: "", price: "240" }
                 ]
             },
             {
                 name: "开胃菜",
                 image: "sal-4.jpg",
                 items: [
-                    { name: "洋葱圈", description: "", price: "50" },
-                    { name: "蒜蓉芝士面包", description: "", price: "45" },
-                    { name: "炸薯条", description: "", price: "45" },
-                    { name: "芝士薯条", description: "", price: "70" },
-                    { name: "蔬菜沙拉", description: "", price: "55" },
-                    { name: "希腊沙拉", description: "", price: "65" },
-                    { name: "鸡肉凯撒沙拉", description: "", price: "140" }
+                    { name: "洋葱圈", description: "", price: "55" },
+                    { name: "蒜蓉芝士面包", description: "", price: "50" },
+                    { name: "炸薯条", description: "", price: "50" },
+                    { name: "芝士薯条", description: "", price: "75" },
+                    { name: "蔬菜沙拉", description: "", price: "60" },
+                    { name: "希腊沙拉", description: "", price: "70" },
+                    { name: "鸡肉凯撒沙拉", description: "", price: "145" }
                 ]
             },
             {
                 name: "汤",
                 image: "s-2.jpg",
                 items: [
-                    { name: "法式鸡汤", description: "", price: "160" },
-                    { name: "蘑菇汤", description: "", price: "150" },
-                    { name: "海鲜汤", description: "", price: "250" }
+                    { name: "法式鸡汤", description: "", price: "165" },
+                    { name: "蘑菇汤", description: "", price: "155" },
+                    { name: "海鲜汤", description: "", price: "255" }
                 ]
             },
             {
                 name: "儿童餐",
                 image: "san-3.jpg",
                 items: [
-                    { name: "鸡块和炸薯条", description: "", price: "100" },
-                    { name: "通心粉和奶酪", description: "", price: "100" }
+                    { name: "鸡块和炸薯条", description: "", price: "105" },
+                    { name: "通心粉和奶酪", description: "", price: "106" }
                 ]
             },
             {
                 name: "意大利面",
                 image: "pas-6.jpg",
                 items: [
-                    { name: "肉酱通心粉", description: "(通心粉配红酱、肉末和磨碎的土耳其奶酪)", price: "160" },
-                    { name: "海鲜意面", description: "(通心粉配白酱和混合海鲜)", price: "325" },
-                    { name: "海鲜通心粉", description: "(通心粉配白酱和虾)", price: "300" },
-                    { name: "阿尔弗雷多鸡肉意面", description: "(通心粉配白酱、鸡肉块和帕玛森芝士)", price: "235" },
-                    { name: "阿拉伯通心粉", description: "(通心粉配红酱、蘑菇和磨碎的土耳其奶酪)", price: "115" },
-                    { name: "内格雷斯科", description: "(意大利宽面配鸡肉、蘑菇和马苏里拉奶酪)", price: "255" }
+                    { name: "肉酱通心粉", description: "(通心粉配红酱、肉末和磨碎的土耳其奶酪)", price: "155" },
+                    { name: "海鲜意面", description: "(通心粉配白酱和混合海鲜)", price: "330" },
+                    { name: "海鲜通心粉", description: "(通心粉配白酱和虾)", price: "305" },
+                    { name: "阿尔弗雷多鸡肉意面", description: "(通心粉配白酱、鸡肉块和帕玛森芝士)", price: "240" },
+                    { name: "阿拉伯通心粉", description: "(通心粉配红酱、蘑菇和磨碎的土耳其奶酪)", price: "120" },
+                    { name: "内格雷斯科", description: "(意大利宽面配鸡肉、蘑菇和马苏里拉奶酪)", price: "260" }
                 ]
             },
             {
@@ -738,13 +738,13 @@ const menuData = {
                 description: "所有菜肴均配有炸薯条和您选择的土豆泥或配有白酱或红酱的意大利面。",
                 image: "pas-8.jpg",
                 items: [
-                    { name: "烤鸡", description: "新鲜烤鸡片", price: "252" },
-                    { name: "咖喱鸡", description: "咖喱酱鸡肉片", price: "350" },
-                    { name: "蓝带鸡", description: "酿有奶酪和烟熏肉的鸡柳", price: "380" },
-                    { name: "奶油蘑菇鸡", description: "白汁蘑菇鸡片", price: "360" },
-                    { name: "鸡肉法士达", description: "烤鸡肉片配蔬菜片和法士达酱", price: "310" },
-                    { name: "牛肉法士达", description: "牛柳片配蔬菜片和法士达酱", price: "395" },
-                    { name: "柠檬鸡", description: "奶油白柠檬酱肉片", price: "330" }
+                    { name: "烤鸡", description: "新鲜烤鸡片", price: "260" },
+                    { name: "咖喱鸡", description: "咖喱酱鸡肉片", price: "355" },
+                    { name: "蓝带鸡", description: "酿有奶酪和烟熏肉的鸡柳", price: "385" },
+                    { name: "奶油蘑菇鸡", description: "白汁蘑菇鸡片", price: "365" },
+                    { name: "鸡肉法士达", description: "烤鸡肉片配蔬菜片和法士达酱", price: "315" },
+                    { name: "牛肉法士达", description: "牛柳片配蔬菜片和法士达酱", price: "400" },
+                    { name: "柠檬鸡", description: "奶油白柠檬酱肉片", price: "335" }
                 ]
             },
             {
@@ -752,20 +752,20 @@ const menuData = {
                 image: "d5.jpg",
                 items: [
                     { name: "能多益可丽饼", description: "", price: "90" },
-                    { name: "开心果可丽饼", description: "", price: "125" },
+                    { name: "开心果可丽饼", description: "", price: "150" },
                     { name: "能多益华夫饼", description: "", price: "95" },
                     { name: "开心果华夫饼", description: "", price: "135" },
-                    { name: "布朗尼", description: "", price: "115" },
+                    { name: "布朗尼", description: "", price: "150" },
                     { name: "冰淇淋（3勺）", description: "", price: "130" },
                     { name: "四季华夫饼", description: "", price: "150" },
                     { name: "奥利奥疯狂", description: "", price: "150" },
                     { name: "水果疯狂", description: "", price: "165" },
                     { name: "帽子杰克", description: "", price: "150" },
                     { name: "巧克力软糖", description: "", price: "130" },
-                    { name: "熔岩蛋糕", description: "", price: "165" },
-                    { name: "芝士蛋糕", description: "", price: "145" },
+                    { name: "熔岩蛋糕", description: "", price: "195" },
+                    { name: "芝士蛋糕", description: "", price: "165" },
                     { name: "圣塞巴斯蒂安", description: "", price: "165" },
-                    { name: "乌姆阿里", description: "", price: "150" }
+                    { name: "乌姆阿里", description: "", price: "165" }
                 ]
             },
             {
@@ -774,7 +774,7 @@ const menuData = {
                 items: [
                     { name: "经典星冰乐", description: "", price: "85" },
                     { name: "开心果星冰乐", description: "", price: "130" },
-                    { name: "摩卡星冰乐", description: "", price: "95" },
+                    { name: "摩卡星冰乐", description: "", price: "105" },
                     { name: "焦糖星冰乐", description: "", price: "90" },
                     { name: "海盐焦糖星冰乐", description: "", price: "110" },
                     { name: "莲花星冰乐", description: "", price: "100" }
@@ -811,13 +811,13 @@ const menuData = {
                 name: "莫吉托",
                 image: "IMG-20251028-WA0001.jpg",
                 items: [
-                    { name: "阳光", description: "", price: "60" },  
-                    { name: "日出", description: "", price: "60" },
-                    { name: "樱桃可乐", description: "", price: "60" },
+                    { name: "阳光", description: "", price: "70" },  
+                    { name: "日出", description: "", price: "70" },
+                    { name: "樱桃可乐", description: "", price: "70" },
                     { name: "蓝色夏威夷（7 Up、柠檬片、薄荷、蓝橙）", description: "", price: "70" },
                     { name: "蓝色海洋（7 Up、柠檬片、薄荷、蓝橙、橙汁）", description: "", price: "75" },
-                    { name: "红牛无酒精鸡尾酒（红牛+您选择的口味）", description: "", price: "155" },
-                    { name: "红牛锤头（红牛、浓缩咖啡）", description: "", price: "175" }
+                    { name: "红牛无酒精鸡尾酒（红牛+您选择的口味）", description: "", price: "185" },
+                    { name: "红牛锤头（红牛、浓缩咖啡）", description: "", price: "190" }
                 ]
             },
             {
@@ -862,12 +862,12 @@ const menuData = {
                 name: "冰咖啡",
                 image: "IMG-20251028-WA0000.jpg",
                 items: [
-                    { name: "冰雀巢咖啡", description: "", price: "80" },
+                    { name: "冰雀巢咖啡", description: "", price: "85" },
                     { name: "冰卡布奇诺", description: "", price: "110" },
-                    { name: "冰开心果拿铁", description: "", price: "140" },
+                    { name: "冰开心果拿铁", description: "", price: "145" },
                     { name: "冰摩卡", description: "", price: "110" },
                     { name: "冰拿铁", description: "", price: "70" },
-                    { name: "冰焦糖玛奇朵", description: "", price: "115" },
+                    { name: "冰焦糖玛奇朵", description: "", price: "125" },
                     { name: "冰西班牙拿铁", description: "", price: "110" },
                     { name: "冰盐味焦糖", description: "", price: "110" },
                     { name: "冰抹茶拿铁", description: "", price: "155" },
