@@ -25,8 +25,8 @@
         "name": "الشيشه",
         
         "items": [
-          { "name": "شيشه", "price": "150", "description": "" },
-          { "name": "شيشه مكس من اختيارك", "price": "165", "description": "" }
+          { "name": "شيشه", "price": "200", "description": "" },
+          { "name": "شيشه مكس من اختيارك", "price": "220", "description": "" }
         ]
       }
     ]
@@ -57,8 +57,8 @@
         "name": "Shisha",
       
         "items": [
-          { "name": "Shisha", "price": "150", "description": "" },
-          { "name": "Shisha Mix (Your Choice)", "price": "165", "description": "" }
+          { "name": "Shisha", "price": "200", "description": "" },
+          { "name": "Shisha Mix (Your Choice)", "price": "220", "description": "" }
         ]
       }
     ]
