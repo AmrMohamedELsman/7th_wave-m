@@ -10,7 +10,7 @@ const menuData = {
                     { name: "توست رومي مدخن وشيدر", description: "", price: "175" },
                     { name: "كلوب ساندوتش مع فريز", description: "", price: "175" },
                     { name: "تشيز اومليت", description: "يقدم مع فريز وشرائح زيتون", price: "115" },
-                    { name: "سبانش اومليت", description: "مع فريز وشرائح زيتون", price: "1120" },
+                    { name: "سبانش اومليت", description: "مع فريز وشرائح زيتون", price: "120" },
                     { name: "كرواسون نوتيلا", description: "", price: "90" },
                     { name: "كلاسيك كرواسون", description: "يقدم مع شاي او قهوه", price: "120" },
                     { name: "تشيز كرواسون", description: "", price: "90" },
